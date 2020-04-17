@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Job Application</title>
+</head>
+<body>
+        <div="mainContent">
+            <h1>Job Application</h1>
+            <p>If you are intrested in finding a job, please fill out this job application </p><br/>
+        <div class="formClass">
+                <form name="input" action="https://formspree.io/mrgavkda" method="post">
+                  <fieldset>
+                    <legend>Basic Info</legend>
+                    Full name: <input type="text" name="Name"/><br><br/>
+                    Email: <input type="email" name="_replyto"><br/><br/>
+                    What Are Your Skills/Specialties?<br/>
+                    <input type="radio" name="Specialties" value="Organizational Skill"> Organizational Skill<br> <input type="radio" name="Specialties" value="Writing Skills"> Writing Skills<br/> <input type="radio" name="Specialties" value="Advertising Skills"> Advertising Skills<br/> <input type="radio" name="Specialties" value="Presentational Skills"> Presentational Skills<br/><br/><br/>
+                    What is your Educational Degree?<br/>
+                    <select name="Degree"> <option value="High School Graduate">High School Graduate</option> <option value="College Graduate">College Graduate</option> <option value="Masters or above Graduate">Masters or above Graduate</option> <option value="No Educational Degree">No Educational Degree</option> 
+                    </select><br/><br/>
+
+                </fieldset>
+                    
+                  <fieldset>
+                      <legend>Essay</legend>
+                      Please let us know why you are looking for a job, what makes you unique? <br/> <textarea name="essay">Text here</textarea><br/><br/><br/>
+                  </fieldset>
+                   
+                  <fieldset>
+                      <legend>More Info</legend>
+                      What do you want to learn?<br/>
+                      <input type="checkbox" name="skills" value="Creating a Website">Creating a Website<br/> <input type="checkbox" name="skills" value="Promoting a Website">Promoting a Website<br/><input type="checkbox" name="skills" value="Animate a Website">Animate a Website<br/><br/><br/>
+                      <input type="submit" value="Send">  
+                  </fieldset>  
+                 </form>
+     </div>
+</body>
+</html>
